@@ -7,7 +7,7 @@ class Omen extends React.Component {
 		"Postaraj się trochę, a wszystko wróci do normy", 
 		"Na święta mniej ciasta, więcej uwagi poświęć ludziom",
 		"Pomóż szczęściu: naucz się czegoś, rozejrzyj się wkoło uważnie, przyłóż się do tego co robisz",
-		"Każda zmiana zaczyna sie od jednego, tego pierwszego kroku",
+		"Każda zmiana zaczyna sie od jednego - pierwszego kroku",
 		"Co masz zjeść dziś, zjedz jutro, co masz zrobić jutro, zrób dziś",
 		"Cała Twoja przyszłość zaczyna się dzisiaj",
 		"Jeśli jesteś gotowy na porażki, sukcesy są w zasięgu ręki",
@@ -28,7 +28,7 @@ class Omen extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Wróżba / sentecja na nowy rok</h1>
+				<h1>Sentecja na nowy rok</h1>
 				<p>kliknij poniżej, by zobaczyć swoją wróżbę na nowy rok</p>
 				<button onClick={this.handleOmenButtonClick}>Pokaż wróżbę</button>
 				{this.state.option ? <h2>{this.state.option}</h2> : null}
