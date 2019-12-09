@@ -1,7 +1,7 @@
 body {
-	background: url("../img/background.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: #FFD700 url("../img/background.jpg") no-repeat fixed center;
+	background-size: auto 1000px;
+	margin: 0 auto;
 	font-size: 20px;
 }
 
@@ -16,16 +16,19 @@ body {
 }
 
 h1 {
+	font-size: 30px;
 	text-transform: uppercase;
 }
 
 h3 {
-	background-color: rgba(244, 196, 48, .7);
+	background-color: rgba(244, 196, 48, .8);
 	border: 1px solid #eee;
 	border-radius: 4px;
 	font-family: 'Patrick Hand', cursive;
 	font-size: 30px;
 	letter-spacing: 2px;
+	margin-bottom: -600px;
+	margin-top: 400px;
 	padding: 5px;
 	text-transform: uppercase;
 }
@@ -55,7 +58,8 @@ button:hover {
 footer {
 	background-color: rgba(255, 255, 255, .7);
 	font-size: 12px;
-	margin-top: 620px;
+	padding: 4px;
+	margin-top: 700px;
 }
 
 a {
@@ -63,4 +67,3 @@ a {
 	margin-left: 8px;
 	text-decoration: none;
 }
-
