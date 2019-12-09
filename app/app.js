@@ -1,5 +1,3 @@
-/* w tle obrazek świąteczno-noworoczny */
-
 class Omen extends React.Component {
 	state = {
 		omens: [
@@ -7,8 +5,7 @@ class Omen extends React.Component {
 		"Postaraj się trochę, a wszystko wróci do normy", 
 		"Na święta mniej ciasta, więcej uwagi poświęć ludziom",
 		"Pomóż szczęściu: naucz się czegoś, rozejrzyj się wkoło uważnie, przyłóż się do tego co robisz",
-		"Każda zmiana zaczyna sie od jednego - pierwszego kroku",
-		"Co masz zjeść dziś, zjedz jutro, co masz zrobić jutro, zrób dziś",
+		"Każda zmiana zaczyna sie od pierwszego kroku",
 		"Cała Twoja przyszłość zaczyna się dzisiaj",
 		"Jeśli jesteś gotowy na porażki, sukcesy są w zasięgu ręki",
 		"Człowiek, który nie robi błędów, zwykle nie robi niczego",
@@ -29,17 +26,30 @@ class Omen extends React.Component {
 		return (
 			<div>
 				<h1>Sentecja na nowy rok</h1>
-				<p>kliknij poniżej, by zobaczyć swoją wróżbę na nowy rok</p>
-				<button onClick={this.handleOmenButtonClick}>Pokaż wróżbę</button>
-				{this.state.option ? <h2>{this.state.option}</h2> : null}
+				<p>kliknij, by zobaczyć swoją sentencję na nowy rok</p>
+				<button onClick={this.handleOmenButtonClick}>Pokaż</button>
+				{this.state.option ? <div><h4>{this.state.option}</h4><br/><h3>Życzenia noworoczne sukcesów zawodowych, pomyślności i życiowego szczęścia składa wszystkim
+			<a href="mailto:mpreus@onet.eu">Maciej Preus</a></h3></div> : null}
 			</div>
 		)
 	}
 }
 
+const Footer = () => {
+	return (
+		<footer>
+			<a target="_blank" href="http://www.freepik.com">Background picture designed by Freepik</a>
+		</footer>
+	)
+}
+
 const App = () => {
 	return (
-		<Omen myOmens="myOmens"/>
+		<React.Fragment>
+			<Omen myOmens="myOmens"/>
+			<Footer />
+		</React.Fragment>
+		
 	)
 }
 

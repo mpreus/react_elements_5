@@ -18,11 +18,20 @@ h1 {
 	text-transform: uppercase;
 }
 
-h2 {
+h3 {
+	background-color: rgba(244, 196, 48, .7);
+	border: 1px solid #eee;
+	border-radius: 4px;
+	font-family: 'Patrick Hand', cursive;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+h4 {
 	background-color: rgba(255, 255, 255, .7);
 	border: 1px solid #eee;
 	border-radius: 4px;
-	text-transform: uppercase;
+	padding: 5px;
 }
 
 button {
@@ -37,5 +46,27 @@ button {
 button:hover {
 	background-color: #333;
 	color: #eee;
+}
+
+/*span {
+	background-color: rgba(255, 255, 255, .7);
+	border: 1px solid #eee;
+	border-radius: 4px;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 30px;
+	padding: 5px;
+	text-transform: uppercase;
+}*/
+
+footer {
+	background-color: rgba(255, 255, 255, .7);
+	font-size: 12px;
+	margin-top: 620px;
+}
+
+a {
+	color: #000;
+	margin-left: 8px;
+	text-decoration: none;
 }
 
