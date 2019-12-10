@@ -5,6 +5,15 @@ body {
 	font-size: 20px;
 }
 
+@media screen and (max-width: 800px) {
+	body {
+		background: #FFD700 url("../img/background1.jpg") no-repeat fixed center;
+		background-size: 800px auto;
+		/*margin: 0 auto;*/
+		font-size: 18px;
+	}
+}
+
 #root {
 	background-color: rgba(255, 255, 255, .3);
 	border: 1px solid #eee;
@@ -20,6 +29,13 @@ h1 {
 	text-transform: uppercase;
 }
 
+@media screen and (max-width: 800px) {
+	h1 {
+		font-size: 25px;
+		text-transform: uppercase;
+	}
+}
+
 h3 {
 	background-color: rgba(244, 196, 48, .8);
 	border: 1px solid #eee;
@@ -31,6 +47,21 @@ h3 {
 	margin-top: 400px;
 	padding: 5px;
 	text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+	h3 {
+		/*background-color: rgba(244, 196, 48, .8);
+		border: 1px solid #eee;
+		border-radius: 4px;
+		font-family: 'Patrick Hand', cursive;*/
+		font-size: 25px;
+		letter-spacing: 2px;
+		margin-bottom: -500px;
+		margin-top: 400px;
+		/*padding: 5px;
+		text-transform: uppercase;*/
+	}
 }
 
 h4 {
@@ -60,6 +91,14 @@ footer {
 	font-size: 12px;
 	padding: 4px;
 	margin-top: 700px;
+}
+
+@media screen and (max-width: 800px) {
+	footer {
+		
+		padding: 4px;
+		margin-top: 560px;
+	}
 }
 
 a {

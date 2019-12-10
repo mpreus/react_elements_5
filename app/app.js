@@ -38,7 +38,7 @@ class Omen extends React.Component {
 const Footer = () => {
 	return (
 		<footer>
-			<a target="_blank" href="http://www.freepik.com">Background picture designed by Freepik</a>
+			<a target="_blank" href="http://www.freepik.com">Obrazek w tle z Freepik.com</a>
 		</footer>
 	)
 }
