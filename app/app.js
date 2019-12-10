@@ -19,7 +19,6 @@ class Omen extends React.Component {
 		this.setState({
 			option: this.state.omens[omensIndex]
 		})
-		
 	}
 	
 	render() {
@@ -49,7 +48,6 @@ const App = () => {
 			<Omen myOmens="myOmens"/>
 			<Footer />
 		</React.Fragment>
-		
 	)
 }
 
