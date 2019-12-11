@@ -24,8 +24,8 @@ class Omen extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Sentecja na nowy rok</h1>
-				<p><b>kliknij, by zobaczyć swoją sentencję na nowy rok</b></p>
+				<h1>Sentencja na nowy rok</h1>
+				<p><b>kliknij, by zobaczyć sentencję na nowy rok</b></p>
 				<button onClick={this.handleOmenButtonClick}>Pokaż</button>
 				{this.state.option ? <div><h4>{this.state.option}</h4><br/><h3>Życzenia noworoczne sukcesów zawodowych, pomyślności i życiowego szczęścia składa wszystkim
 			<a href="mailto:mpreus@onet.eu">Maciej Preus</a></h3></div> : null}
